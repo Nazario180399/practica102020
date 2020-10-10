@@ -1,0 +1,139 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    background-image: url(font3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.menu {
+    margin-bottom: 15px;
+    color: white;
+    fill: currentColor;
+}
+
+#log {
+    margin-bottom: 10px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.lupa {
+    fill: currentColor;
+    margin-bottom: 10px;
+    margin-left: 190px;
+    color: white;
+}
+.titulo1 {
+    font-size: 40px;
+    width: fit-content;
+    color: orange;
+    margin-top: 50px;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    
+}
+
+.titulo2 {
+    font-size: 40px;
+    width: fit-content;
+    color: white;
+    margin-top: 10px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+   
+}
+
+.titulo3 {
+    font-size: 18px;
+}
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    color: aliceblue;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#lista1 li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#lista1 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 0px;
+}
+
+
+div.noticia {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    background: #E0EAFC;
+    background-color: burlywood;
+}
+
+aside {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 28px;
+    color: black;
+}
+
+div.noticia img.izquierda {
+    float: left;
+    border-radius: 26px;
+}
+
+div.noticia img.derecha {
+    float: left;
+    border-radius: 26px;
+}
+
+.estrellas {
+    fill: currentColor;
+    margin-left: 15px;
+    color: yellow;
+}
+
+.estrellasC {
+    fill: currentColor;
+    margin-left: 15px;
+    color: white;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.boton {
+    background-color:orange;
+    border-radius: 50px;
+    margin-top: 0px;
+    display: flex;
+    width: 90px;
+    font-size: 20px;
+    padding-left: 12px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
